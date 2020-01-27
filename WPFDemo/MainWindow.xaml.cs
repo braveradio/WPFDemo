@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PluginInterface;
 
 namespace WPFDemo
 {
@@ -20,6 +21,7 @@ namespace WPFDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        PluginImplementer PI;
         List<Person> people = new List<Person>();
         public MainWindow()
         {

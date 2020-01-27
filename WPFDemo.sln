@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemo", "WPFDemo\WPFDemo.csproj", "{39C22B66-1145-4868-B81D-9BE69A8674DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInterface", "PluginInterface\PluginInterface.csproj", "{59D8C340-BB17-4A0C-ADEA-1D351EB10B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39C22B66-1145-4868-B81D-9BE69A8674DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C22B66-1145-4868-B81D-9BE69A8674DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C22B66-1145-4868-B81D-9BE69A8674DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D8C340-BB17-4A0C-ADEA-1D351EB10B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D8C340-BB17-4A0C-ADEA-1D351EB10B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D8C340-BB17-4A0C-ADEA-1D351EB10B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D8C340-BB17-4A0C-ADEA-1D351EB10B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
