@@ -20,9 +20,17 @@ namespace WPFDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Person> people = new List<Person>();
         public MainWindow()
         {
             InitializeComponent();
+
+            people.Add(new Person() { FirstName = "Steve", LastName = "Mayson" });
+            people.Add(new Person() { FirstName = "Brad", LastName = "Perry" });
+            people.Add(new Person() { FirstName = "Kate", LastName = "Mallson" });
+
+            myComboBox.ItemsSource = people;
+
         }
 
         private void submitButton_Click(object sender, RoutedEventArgs e)
